@@ -20,5 +20,5 @@ func runCommand(command string, args []string) {
 	if err != nil {
 		fmt.Println("rpm-" + command + " does not exist")
 	}
-	fmt.Print(stdout)
+	fmt.Print(string(stdout))
 }
